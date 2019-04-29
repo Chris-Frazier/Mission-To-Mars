@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mission to Mars</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1>Misson to Mars</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+    </div>
+
+     <!-- Mars News -->
+     <div class="row" id="Mars-News">
+        <div class="col-md-12">
+          <h4 class="heading">Latest Mars News</h4>
+          <small>mars.News_title</small>
+          <p>mars.News</p>
+        </div>
+      </div>
+
+      <!-- Featured Image -->
+     <div class="row" id="Featured-Image">
+        <div class="col-md-6">
+          <h4 class="heading">Featured Mars Image</h4>
+          <img src="mars.Featured_image" alt="Featured-Image">
+        </div>
+
+        <div class="col-md-3">
+            <h4 class="heading">Current Weather on Mars</h4>
+            <p>mars weather</p>
+        </div>
+
+        <div class="col-md-3">
+            <h4 class="heading">Mars Facts</h4>
+            <p>mars.Mars_facts</p>
+        </div>
+      </div>
+
+      <!-- Mars Hemispheres -->
+      <div class="row" id="Mars-Hemispheres">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+              <h2>Mars Hemispheres</h2>
+          </div>
+          <div class="col-md-4"></div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-6">
+              <img src="mars.Hemispheres" alt="Valles Marineris">
+          <div>
+          <div class="col-md-6">
+                <img src="mars.Hemispheres" alt="Cerberus">
+          </div>
+      </div>
+
+      <div class="row">
+            <div class="col-md-6">
+                <img src="mars.Hemispheres" alt="Schiaparelli">
+            </div>
+            <div class="col-md-6">
+                  <img src="mars.Hemispheres" alt="Syrtis Major">
+            </div>
+      </div>
+  </div>
+</body>
+
+</html>
